@@ -1,6 +1,6 @@
 language: php
 dist: xenial
-sudo: required
+sudo: true
 install: composer require facebook/webdriver
 jobs:
   include:
