@@ -13,7 +13,7 @@ $caps = array(
 );
 
 $web_driver = RemoteWebDriver::create("https://austin249:NypQBv2AGsoCfqipDh4n@hub-cloud.browserstack.com/wd/hub", $caps);
-$web_driver->get("nacl.foldingathome.org");
+$web_driver->get("http://nacl.foldingathome.org/");
 $element = $web_driver->findElement(WebDriverBy::name("user"));
 $element->sendKeys("Foxxo");
 $element = $web_driver->findElement(WebDriverBy::name("team"));
