@@ -14,11 +14,11 @@ $caps = array(
 
 $web_driver = RemoteWebDriver::create("https://austin249:NypQBv2AGsoCfqipDh4n@hub-cloud.browserstack.com/wd/hub", $caps);
 $web_driver->get("http://nacl.foldingathome.org/");
-$element = $web_driver->findElement(WebDriverBy::name("user"));
+$element = $web_driver->findElement(WebDriverBy::classname("user"));
 $element->sendKeys("Foxxo");
-$element = $web_driver->findElement(WebDriverBy::name("team"));
+$element = $web_driver->findElement(WebDriverBy::classname("team"));
 $element->sendKeys("233478");
-$element = $web_driver->findElement(WebDriverBy::name("slider"));
+$element = $web_driver->findElement(WebDriverBy::classname("slider"));
 $element->sendKeys(Keys.RIGHT);
 print $web_driver->getTitle();
 $web_driver->quit();
