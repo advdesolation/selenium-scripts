@@ -8,7 +8,7 @@ $caps = array(
  "browser_version" => "73.0",
  "os" => "OS X",
  "os_version" => "Mojave",
- "resolution" => "1920x1080"
+ "resolution" => "1920x1080",
  "browserstack.debug" => true
 );
 
