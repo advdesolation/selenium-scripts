@@ -18,10 +18,10 @@ $element = $web_driver->findElement(WebDriverBy::classname("user"));
 $element->sendKeys("Foxxo");
 $element = $web_driver->findElement(WebDriverBy::classname("team"));
 $element->sendKeys("233478");
-$element = $web_driver->findElement(WebDriverBy::classname('"save-id"));
+$element = $web_driver->findElement(WebDriverBy::classname("save-id"));
 $element->click();
 $element = $web_driver->findElement(WebDriverBy::classname("ui-slider-handle"));
-$element->click()
+$element->click();
 $element->sendKeys(Keys.RIGHT);
 print $web_driver->getTitle();
 sleep(15000);
