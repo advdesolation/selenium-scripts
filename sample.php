@@ -21,7 +21,7 @@ $element->sendKeys("233478");
 $element = $web_driver->findElement(WebDriverBy::classname("save-id"));
 $element->click();
 $element = $web_driver->findElement(WebDriverBy::classname("ui-slider-handle"));
-$element->click()
+$element->click();
 $element->sendKeys(Keys.RIGHT);
 print $web_driver->getTitle();
 $web_driver->quit();
