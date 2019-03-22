@@ -5,5 +5,5 @@ install: composer require facebook/webdriver
 jobs:
   include:
   - stage: sample-sel
-    script: php sample.php
+    script: php manual.php
 
