@@ -24,5 +24,6 @@ $element = $web_driver->findElement(WebDriverBy::classname("ui-slider-handle"));
 $element->click()
 $element->sendKeys(Keys.RIGHT);
 print $web_driver->getTitle();
+sleep(15000);
 $web_driver->quit();
 ?>
