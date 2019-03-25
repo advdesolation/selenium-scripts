@@ -5,9 +5,9 @@ use Facebook\WebDriver\WebDriverBy;
 use Facebook\WebDriver\WebDriverKeys;
 $caps = array(
  "browser" => "Chrome",
- "browser_version" => "72.0",
- "os" => "Windows",
- "os_version" => "10",
+ "browser_version" => "73.0",
+ "os" => "OS X",
+ "os_version" => "Sierra",
  "resolution" => "1920x1080",
  "browserstack.debug" => true,
  "browserstack.networkLogs" => true
