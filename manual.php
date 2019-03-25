@@ -11,7 +11,6 @@ $caps = array(
  "resolution" => "1920x1080",
  "browserstack.debug" => true,
  "browserstack.networkLogs" => true
- "
 );
 
 $web_driver = RemoteWebDriver::create("https://austin249:NypQBv2AGsoCfqipDh4n@hub-cloud.browserstack.com/wd/hub", $caps);
