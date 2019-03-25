@@ -4,10 +4,10 @@ use Facebook\WebDriver\Remote\RemoteWebDriver;
 use Facebook\WebDriver\WebDriverBy;
 use Facebook\WebDriver\WebDriverKeys;
 $caps = array(
- "browser" => "Chrome",
- "browser_version" => "73.0",
+ "browser" => "Firefox",
+ "browser_version" => "63.0",
  "os" => "OS X",
- "os_version" => "Mojave",
+ "os_version" => "El Capitan",
  "resolution" => "1920x1080",
  "browserstack.debug" => true,
  "browserstack.networkLogs" => true
