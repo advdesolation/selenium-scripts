@@ -9,13 +9,15 @@ $caps = array(
  "os" => "OS X",
  "os_version" => "Mojave",
  "resolution" => "1920x1080",
- "browserstack.debug" => true
+ "browserstack.debug" => true,
+ "browserstack.networkLogs" => true
+ "
 );
 
 $web_driver = RemoteWebDriver::create("https://austin249:NypQBv2AGsoCfqipDh4n@hub-cloud.browserstack.com/wd/hub", $caps);
-$web_driver->get("http://nacl.foldingathome.org/");
+$web_driver->get("https://youtu.be/KqpBXCv1EsM");
 while (true) {
-$web_driver->getTitle();
+echo $web_driver->getTitle();
 sleep(30);
 };
 $web_driver->quit();
